@@ -22,7 +22,7 @@ export class GuessNumber {
   private static readonly MAX_ATEMPTS = 10;
 
   giveClass(): String{
-    if(this.gameOver && this.attemptsLeft == 0){
+    if(this.guessedNumber !== this.secretNumber){
       return "incorrect";
     }else{
       return "correct";
