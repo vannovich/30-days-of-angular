@@ -3,11 +3,12 @@ import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
-import { GuessNumber } from './guess-number/guess-number';
+import { TicTacToe } from './tic-tac-toe/tic-tac-toe';
+;
 
 @Component({
   selector: 'app-root',
-  imports: [GuessNumber, FormsModule, CommonModule],
+  imports: [TicTacToe, FormsModule, CommonModule],
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true
