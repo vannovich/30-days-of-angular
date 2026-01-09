@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TicTacToe } from './tic-tac-toe';
+import { DynamicSearch } from './dynamic-search';
 
-describe('TicTacToe', () => {
-  let component: TicTacToe;
-  let fixture: ComponentFixture<TicTacToe>;
+describe('DynamicSearch', () => {
+  let component: DynamicSearch;
+  let fixture: ComponentFixture<DynamicSearch>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TicTacToe]
+      imports: [DynamicSearch]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TicTacToe);
+    fixture = TestBed.createComponent(DynamicSearch);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

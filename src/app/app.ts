@@ -3,12 +3,12 @@ import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
-import { TicTacToe } from './tic-tac-toe/tic-tac-toe';
+import { DynamicSearch } from './dynamic-search/dynamic-search';
 ;
 
 @Component({
   selector: 'app-root',
-  imports: [TicTacToe, FormsModule, CommonModule],
+  imports: [DynamicSearch, FormsModule, CommonModule],
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true
