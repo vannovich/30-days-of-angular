@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DynamicSearch } from './dynamic-search';
+import { RockPaperScissors } from './rock-paper-scissors';
 
-describe('DynamicSearch', () => {
-  let component: DynamicSearch;
-  let fixture: ComponentFixture<DynamicSearch>;
+describe('RockPaperScissors', () => {
+  let component: RockPaperScissors;
+  let fixture: ComponentFixture<RockPaperScissors>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [DynamicSearch]
+      imports: [RockPaperScissors]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DynamicSearch);
+    fixture = TestBed.createComponent(RockPaperScissors);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

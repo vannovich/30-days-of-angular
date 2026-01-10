@@ -3,12 +3,12 @@ import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
-import { DynamicSearch } from './dynamic-search/dynamic-search';
+import { RockPaperScissors } from './rock-paper-scissors/rock-paper-scissors';
 ;
 
 @Component({
   selector: 'app-root',
-  imports: [DynamicSearch, FormsModule, CommonModule],
+  imports: [RockPaperScissors, FormsModule, CommonModule],
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true
