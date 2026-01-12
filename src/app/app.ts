@@ -3,12 +3,12 @@ import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
-import { RockPaperScissors } from './rock-paper-scissors/rock-paper-scissors';
+import { FaqAccordion } from './faq-accordion/faq-accordion';
 ;
 
 @Component({
   selector: 'app-root',
-  imports: [RockPaperScissors, FormsModule, CommonModule],
+  imports: [ FaqAccordion,FormsModule, CommonModule],
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true

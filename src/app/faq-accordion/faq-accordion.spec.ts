@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RockPaperScissors } from './rock-paper-scissors';
+import { FaqAccordion } from './faq-accordion';
 
-describe('RockPaperScissors', () => {
-  let component: RockPaperScissors;
-  let fixture: ComponentFixture<RockPaperScissors>;
+describe('FaqAccordion', () => {
+  let component: FaqAccordion;
+  let fixture: ComponentFixture<FaqAccordion>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RockPaperScissors]
+      imports: [FaqAccordion]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(RockPaperScissors);
+    fixture = TestBed.createComponent(FaqAccordion);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
