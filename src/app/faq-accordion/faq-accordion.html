@@ -1,6 +1,0 @@
-<div class="faq-container" animate.enter>
-  <div class="faq-item" *ngFor="let faq of faqs; let i = index" (click)="toggleFAQ(i)">
-    <div class="faq-question">{{ faq.question }}</div>
-    <div class="faq-answer" *ngIf="i === openedIndex">{{ faq.answer }}</div>
-  </div>
-</div>

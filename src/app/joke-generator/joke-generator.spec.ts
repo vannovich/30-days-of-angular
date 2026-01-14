@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FaqAccordion } from './faq-accordion';
+import { JokeGenerator } from './joke-generator';
 
-describe('FaqAccordion', () => {
-  let component: FaqAccordion;
-  let fixture: ComponentFixture<FaqAccordion>;
+describe('JokeGenerator', () => {
+  let component: JokeGenerator;
+  let fixture: ComponentFixture<JokeGenerator>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FaqAccordion]
+      imports: [JokeGenerator]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FaqAccordion);
+    fixture = TestBed.createComponent(JokeGenerator);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

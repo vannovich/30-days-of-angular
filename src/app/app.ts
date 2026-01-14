@@ -3,12 +3,12 @@ import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
-import { FaqAccordion } from './faq-accordion/faq-accordion';
+import { JokeGenerator } from './joke-generator/joke-generator';
 ;
 
 @Component({
   selector: 'app-root',
-  imports: [ FaqAccordion,FormsModule, CommonModule],
+  imports: [JokeGenerator,FormsModule, CommonModule],
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true
