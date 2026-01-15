@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { Post } from './post';
+import { MockTime } from './mock-time';
 
-describe('Post', () => {
-  let service: Post;
+describe('MockTime', () => {
+  let service: MockTime;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(Post);
+    service = TestBed.inject(MockTime);
   });
 
   it('should be created', () => {
