@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { JokeGenerator } from './joke-generator';
+import { PostList } from './post-list';
 
-describe('JokeGenerator', () => {
-  let component: JokeGenerator;
-  let fixture: ComponentFixture<JokeGenerator>;
+describe('PostList', () => {
+  let component: PostList;
+  let fixture: ComponentFixture<PostList>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [JokeGenerator]
+      imports: [PostList]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(JokeGenerator);
+    fixture = TestBed.createComponent(PostList);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

@@ -3,12 +3,12 @@ import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
-import { JokeGenerator } from './joke-generator/joke-generator';
+import { PostList } from './components/post-list/post-list';
 ;
 
 @Component({
   selector: 'app-root',
-  imports: [JokeGenerator,FormsModule, CommonModule],
+  imports: [PostList,FormsModule, CommonModule],
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true

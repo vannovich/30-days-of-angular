@@ -1,0 +1,20 @@
+.post{
+  width: 50%;
+  margin: auto;
+}
+
+.loading{
+  text-align: center;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.error-message{
+  color: red;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f8dfdf;
+  border: 1px solid;
+  border-radius: 4px;
+}
