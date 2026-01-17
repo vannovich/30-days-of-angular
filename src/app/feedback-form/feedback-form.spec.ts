@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Clock } from './clock';
+import { FeedbackForm } from './feedback-form';
 
-describe('Clock', () => {
-  let component: Clock;
-  let fixture: ComponentFixture<Clock>;
+describe('FeedbackForm', () => {
+  let component: FeedbackForm;
+  let fixture: ComponentFixture<FeedbackForm>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Clock]
+      imports: [FeedbackForm]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Clock);
+    fixture = TestBed.createComponent(FeedbackForm);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

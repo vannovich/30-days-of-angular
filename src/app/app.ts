@@ -3,13 +3,13 @@ import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
-import { Clock } from './clock/clock';
+import { FeedbackForm } from './feedback-form/feedback-form';
 
 ;
 
 @Component({
   selector: 'app-root',
-  imports: [Clock,FormsModule, CommonModule],
+  imports: [FeedbackForm,FormsModule, CommonModule],
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true
