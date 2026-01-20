@@ -3,13 +3,13 @@ import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
-import { FeedbackForm } from './feedback-form/feedback-form';
+import { ContactForm } from './contact-form/contact-form';
 
 ;
 
 @Component({
   selector: 'app-root',
-  imports: [FeedbackForm,FormsModule, CommonModule],
+  imports: [ContactForm,FormsModule, CommonModule],
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true
