@@ -3,14 +3,11 @@ import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
-import { HoverHighlight } from './directives/hover-highlight';
-import { TextTransform } from './directives/text-transform';
-import { ClickOutsite } from './directives/click-outsite';
-import { FocusOn } from './directives/focus-on';
+import { Calculator } from './component/calculator/calculator';
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule, HoverHighlight, TextTransform, ClickOutsite, FocusOn],
+  imports: [CommonModule, Calculator],
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true,
