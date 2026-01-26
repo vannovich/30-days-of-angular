@@ -3,11 +3,11 @@ import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 
 import { CommonModule } from '@angular/common';
-import { Calculator } from './component/calculator/calculator';
+import { CurrencyConverter } from './currency-converter/currency-converter';
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule, Calculator],
+  imports: [CommonModule, CurrencyConverter],
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true,
